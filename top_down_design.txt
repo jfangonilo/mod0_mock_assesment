@@ -1,0 +1,31 @@
+Making a Sandwich
+
+1 Collect ingredients
+    1.1 Select bread
+    1.2 Select meat
+    1.3 Select vegetables
+    1.4 Select condiments
+    1.5 Select sides
+    1.6 Select drink
+2 Make sandwich
+    2.1 Prepare kitchen
+        2.1.1 Clean surfaces
+        2.1.2 Wash hands
+        2.1.3 Get plate, utensils, ingredients
+    2.2 Assemble sandwich
+        2.2.1 Place 2 slices of bread on plate
+        2.2.2 Place meat on one bread slide
+        2.2.3 Place vegetables on meat
+        2.2.4 Spread condiments on 2nd bread slice
+        2.2.5 Place 2nd bread slice condiment down on top of stack
+3 Serve
+    3.1 Prepare drink and side
+        Get cup and appropriate container for side
+        3.1.2 Pour drink into cup
+        3.1.3 Place side in appropriate container
+    3.2 Deliver with sandwich
+4 Cleanup
+    4.1 Place unused ingredients away
+      4.1.1 Place unused bread in pantry
+      4.1.2 Place unused drink, vegetables, condiments, and sides in fridge
+      4.1.3 Place unused sides in appropriate location
