@@ -1,0 +1,35 @@
+Object: beauTheCorgi
+
+Attributes
+energyLevel: 2
+energyLevelMax: 3
+hungerLevel: 1
+hungerLevelMax: 6
+hairAmount: 5
+tired: False
+needBathroom: True
+
+(all methods run from listed initial attributes)
+walk: energyLevel=1, hungerLevel=2, needBathroom=false
+feed: hungerLevel=0, needBathroom=true
+playFetch: energyLevel=0, tired=true
+brushHair: hairAmount=4
+
+///
+
+Object: seamusTheHusky
+
+Attributes
+energyLevel: 4
+energyLevelMax 10
+hungerLevel: 1
+hungerLevelMax: 10
+hairAmount: 8
+tired: True
+needBathroom: False
+
+(all methods run from listed initial attributes)
+walk: energyLevel=3, hungerLevel=2, needBathroom=false,
+feed: hungerLevel=0, needBathroom=true
+playFetch: cannot be run because tired=true
+brushHair: hairAmount=7
