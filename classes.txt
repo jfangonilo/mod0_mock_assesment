@@ -2,13 +2,21 @@ Class: Dog
 
 Attributes:
 energyLevel (integer)
+energyLevelMax (integer)
 hungerLevel (integer)
+hungerLevelMax (integer)
 hairAmount (integer)
 tired (boolean)
 needBathroom (boolean)
 
 Methods:
-walk (reduces energyLevel, raises hungerLevel, chance to set needBathroom to false)
-feed (reduces hunger level, sets needsBathroom to true)
-playFetch (reduces energyLevel, sets tired to true)
-brushHair (reduces hairAmount)
+walk (energyLevel-1, hungerLevel+1, set needBathroom to false,
+      energyLevel cannot go below 0
+      hungerLevel cannot go above hungerLevelMax)
+feed (hungerLevel-1, sets needsBathroom to true
+      hungerLevel cannot go below 0)
+playFetch (energyLevel-2, hungerLevel+2, sets tired to true
+           energyLevel cannot go below 0
+           hungerLevel cannot go above hungerLevelMax
+           tired must be false)
+brushHair (hairAmount-1)
